@@ -1,0 +1,285 @@
+@font-face 
+    font-family: 'Futura PT'
+    src: url('assets\fonts\FuturaPT-Medium.woff2') format('woff2')
+    font-weight: 500
+    font-style: normal
+
+
+@font-face 
+    font-family: 'Futura PT'
+    src: url('assets\fonts\FuturaPT-Bold.woff2') format('woff2')
+    font-weight: bold
+    font-style: normal
+
+
+@font-face 
+    font-family: 'Futura PT'
+    src: url('assets\fonts\FuturaPT-Demi.woff2') format('woff2')
+    font-weight: 600
+    font-style: normal
+
+ 
+
+body
+    font-family: 'Futura PT'
+
+.sheet
+      width: 100%
+      height: 100%
+      background: white
+      position: fixed
+      display: block
+      z-index: 10
+
+.box
+    height: 50px
+    width: 50px
+    transform-origin: center
+    margin: auto
+    position: absolute
+    left: 0px
+    right: 0px
+    bottom: 0px
+    top: 0px
+    animation: triangle 8s  infinite
+
+@keyframes triangle
+      0%
+            transform: rotate(0deg)
+
+      33%
+            transform: rotate(120deg)
+
+      66%
+            transform: rotate(240deg)
+            
+      100%
+            transform: rotate(360deg)
+
+             
+ 
+      
+.box1
+      height: 200px
+      border: 1px solid black
+
+.job-step
+      animation: fade-in 1s linear forwards  
+      opacity: 0
+      position: relative
+      font-size: 20px
+
+@keyframes fade-in
+
+      0%
+            opacity: 0
+            
+      100%
+            opacity: 1
+            
+
+
+html
+      height: 100%
+      margin: 0
+
+
+
+.section
+  height: 100vh
+
+  
+ 
+.Nav-Bar 
+      position: fixed
+      z-index: 1
+      left: 0
+      right: 0
+      top: 0
+      background-color: #fff
+      border-bottom: 1px solid rgb(219, 219, 219)
+
+      
+      
+
+.Nav-Bar.X
+      top:-100px
+    
+nav.navbar
+      height: 78px
+
+
+ul.nav.navbar-nav 
+      padding-right: 300px
+      color: white
+      list-style: none
+ 
+  
+li 
+      padding-right: 30px
+      list-style: none
+ 
+a 
+      color: black
+      text-decoration: none
+.navbar  a:hover
+    color: orange
+    text-decoration: none
+
+a.navbar-logout 
+      padding-right: 30px
+
+li.nav-item-mobile 
+      display: none
+
+.Logout 
+      display: block
+ 
+.hamburger 
+      width: 35px
+      height: 5px
+      background-color: black
+      margin: 6px 0
+
+
+a.navbar-brand
+      margin-right: 110px
+      color: #000
+
+
+
+body .bg-dark
+    background-color: #202021e0 !important
+    color: #f5921e
+    -webkit-backdrop-filter: saturate(180%) blur(20px)
+    backdrop-filter: saturate(180%) blur(20px)
+
+@media  (max-width: 600px) 
+      .Logout 
+            display: none
+
+      li.nav-item-mobile 
+            display: block
+
+      li.nav-item 
+            padding-top: 15px
+            padding-bottom: 10px
+
+      li.nav-item-mobile 
+            padding-top: 15px
+            padding-bottom: 10px
+
+      .navbar-header
+        width: 100%
+        flex: 100% 0 0
+        display: flex
+        align-items: center
+        justify-content: space-between
+      
+
+      .navbar-toggler
+            float: right
+      
+      #navbarScrollable
+            position: absolute
+            left: 0
+            right: 0
+            top: 78px
+            background-color: #20221d
+
+button
+    width: 110px
+    height: 40px
+    border-radius: 4px
+    background: linear-gradient(#ff8900 0%, #ff6200 100%)
+    margin-top:40px
+    font-size: 20px
+
+input
+    width: 627px
+    height: 69px
+    background: transparent
+    margin-top: 30px
+    border-radius: 5px
+
+.megaSearch 
+    display: block
+    width:100%
+    height: 50px
+    font-size: 1rem
+    border: 1px solid #ced4da
+    border-radius: .25rem
+    
+    
+.para
+      widows: 691px
+      height: 238px
+      margin-left: 40px
+     
+.plans .card-2
+      background-color: white
+      height: 495px
+      width: 334px
+      border-radius: 10px
+      text-align: center
+      
+     
+      
+      
+.plans
+      position: absolute
+      width: 1000px
+      align-items: center
+      
+
+.plans .middle
+      box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important
+      background-color: white
+      border-radius: 10px
+      z-index: 3px
+      position: relative
+      text-align: center
+       
+.t-img
+    width: 50px
+    height: 50px
+    border-radius: 100%
+    display: block
+    background-size: cover
+
+.col-md-2
+    width: 70px
+    flex: 70px 0 0
+
+.shadow
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important
+    transition: ease all .5s
+   
+   
+        
+
+ 
+
+.shadow:hover
+    box-shadow: 0 .1rem 4px rgba(0,0,0,.15)!important
+    transition: ease all .5s
+    
+
+button
+   border: none
+   border-radius: 4px
+   height: 50px
+   width: 120px
+   color: white
+
+
+
+.new
+    
+  font-size: 45px
+  background: -webkit-linear-gradient(#ffb100 0%, #ff2700 100%)
+  -webkit-background-clip: text
+  -webkit-text-fill-color: transparent
+
+
+
