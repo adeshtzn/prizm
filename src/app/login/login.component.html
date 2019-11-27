@@ -1,0 +1,15 @@
+<div class="form" [formGroup]="login">
+    <h3 style="font-size: 50px; margin-bottom: 30px;">Step 1 Of 4</h3>
+    <div>
+    <input type="email"  placeholder="Email address" required formControlName="Email" >
+    <label style="margin-left: -652px;" class="dev-form">Email address</label>
+
+    <input *ngIf="password" style="border: none; border-bottom: 1px solid; border-color: #cecbcb;
+    outline: none;" type="password" id="aboutus" placeholder="Create Password" formControlName="Description" required>
+    <label style="margin-left: -529px;" class="dev-form" for="aboutus">Create Password</label>
+    </div>
+    <button (click)="continue()">Continue</button>
+    <div class="clearfix" style="height: 150px;"></div>
+    <p>Privacy policy | FAQ</p>
+
+</div>
